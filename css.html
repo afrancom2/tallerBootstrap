@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap 4 Taller</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!--Navegacion-->
+    <nav>
+        <a href="#">
+            <img src="https://hojadevida2020.000webhostapp.com/zozor_logo.png" width="30" height="30" alt="Logo de Zozor" id="logo" />
+        </a>
+        <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span></span>
+        </button>
+        <div id="navbarSupportedContent">
+            <ul>
+                <li>
+                    <a href="https://www.google.com/">Travel diariese</a>
+                </li>
+                <li>
+                    <a href="#">Biografia</a>
+                </li>
+                <li>
+                    <a href="#">Enlaces</a>
+                </li>
+            </ul>
+            <!--Busqueda-->
+            <form>
+                <input type="search" placeholder="Buscar..." aria-label="Search">
+                <button type="submit">Busqueda</button>
+            </form>
+        </div>
+    </nav>
+
+    <!--Banner-->
+    <div>
+        <img src="https://hojadevida2020.000webhostapp.com/sanfrancisco.jpg" alt="San Francisco">
+        <div id="primer-div">
+            <p>Reflections on my holiday in the United States...</p>
+            <a href="#">
+                <button type="button" data-toggle="modal" data-target="#staticBackdrop">
+                    Ver articulo
+                </button>
+            </a>
+            <div id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div>
+                    <div>
+                        <div>
+                            <h5 id="staticBackdropLabel">Articulo</h5>
+                            <button type="button" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur quam corporis illum sit labore debitis eos facere autem laudantium ratione quos fugit architecto nobis veniam, obcaecati eligendi dolores, omnis soluta?
+                        </div>
+                        <div>
+                            <button type="button" data-dismiss="modal">Cerrar</button>
+                            <button type="button">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Principal-->
+    <div>
+        <div>
+            <!--Datos-->
+            <div>
+                <h2>SEMANA ACTUAL</h2>
+                <h5>Renta de apartamento, Ago 13, 2020</h5>
+                <div>
+                    <img src="https://s3.amazonaws.com/assets.moveglobally.com/property_images/1267178/21515667/EB-DV7178.jpg?1580858648">
+                </div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                <br>
+                <h2>SEMANA PASADA</h2>
+                <h5>Ida al parque, Ago 2, 2020
+                </h5>
+                <div>
+                    <img src="https://c.wallhere.com/photos/39/e5/california_city_friends_urban_color_film_horizontal_analog-947001.jpg!d">
+                </div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+            <!--Acerca de mi-->
+            <div>
+                <div>
+                    <img src="https://image.freepik.com/vector-gratis/perfil-avatar-hombre-icono-redondo_24640-14044.jpg" alt="" width="100%" height="250">
+                    <div>
+                        <h2>Acerca de mi</h2>
+                        <h5>Foto de mi</h5>
+                    </div>
+                    <p>Let me introduce myself: My name's Zozor. I was born on 23 November 2005. A bit meager, is it not? This is why I've now decided to write my biography to let my readers know who I really am.</p>
+                    <div>
+                        <img src="https://hojadevida2020.000webhostapp.com/facebook.png" alt="Facebook" />
+                        <img src="https://hojadevida2020.000webhostapp.com/twitter.png" alt="Twitter" />
+                        <img src="https://hojadevida2020.000webhostapp.com/vimeo.png" alt="Vimeo" />
+                        <img src="https://hojadevida2020.000webhostapp.com/flickr.png" alt="Flickr" />
+                        <img src="https://hojadevida2020.000webhostapp.com/rss.png" alt="RSS" />
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">Enlace activo</a>
+                        </li>
+                        <li>
+                            <a href="#">Fotos</a>
+                        </li>
+                        <li>
+                            <a href="#">Video</a>
+                        </li>
+                        <li>
+                            <a href="#">Construcción</a>
+                        </li>
+                    </ul>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer>
+        <div>
+            <div>
+                <h1>Mis datos</h1>
+                <p>Andrés Felipe Franco Monroy</p>
+                <p>31239123</p>
+            </div>
+            <div>
+                <h1>Mis imagenes</h1>
+                <p> <img src="https://hojadevida2020.000webhostapp.com/pic1.jpg" alt="Picture" />
+                    <img src="https://hojadevida2020.000webhostapp.com/pic2.jpg" alt="Picture" />
+                    <img src="https://hojadevida2020.000webhostapp.com/pic3.jpg" alt="Picture" />
+                    <img src="https://hojadevida2020.000webhostapp.com/pic4.jpg" alt="Picture" />
+                </p>
+            </div>
+            <div>
+                <h1>Mis amigos</h1>
+                <ul>
+                    <li>
+                        <a href="#">Pupi the rabbit</a>
+                    </li>
+                    <li>
+                        <a href="#">Mr Baobab</a>
+                    </li>
+                    <li>
+                        <a href="#">Kaiwaii</a>
+                    </li>
+                    <li>
+                        <a href="#">Perceval.eu</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

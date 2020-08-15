@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap 4 Taller</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!--Navegacion-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-3">
+        <a class="navbar-brand" href="#">
+            <img class="img img-fluid" src="https://hojadevida2020.000webhostapp.com/zozor_logo.png" width="30" height="30" alt="Logo de Zozor" id="logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.google.com/">Travel diariese</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Biografia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Enlaces</a>
+                </li>
+            </ul>
+            <!--Busqueda-->
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar..." aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Busqueda</button>
+            </form>
+        </div>
+    </nav>
+
+    <!--Banner-->
+    <div class="container bg-dark text-white text-center">
+        <img class="col-sm-12 mt-4" src="https://hojadevida2020.000webhostapp.com/sanfrancisco.jpg" alt="San Francisco">
+        <div class="row my-2 mx-1" id="primer-div">
+            <p class="col-md-8 text-left">Reflections on my holiday in the United States...</p>
+            <a class="col-md-4 mb-2 text-right" href="#">
+                <button class="btn btn-primary col-md-4 mb-2 text-right" type="button" data-toggle="modal" data-target="#staticBackdrop">
+                    Ver articulo
+                </button>
+            </a>
+            <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-dark" id="staticBackdropLabel">Articulo</h5>
+                            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-dark text-justify">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur quam corporis illum sit labore debitis eos facere autem laudantium ratione quos fugit architecto nobis veniam, obcaecati eligendi dolores, omnis soluta?
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cerrar</button>
+                            <button class="btn btn-primary" type="button">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2 class="mx-3">SEMANA ACTUAL</h2>
+                <h5 class="mx-3">Renta de apartamento, Ago 13, 2020</h5>
+                <div class="col">
+                    <img class="img img-fluid" src="https://s3.amazonaws.com/assets.moveglobally.com/property_images/1267178/21515667/EB-DV7178.jpg?1580858648">
+                </div>
+                <p class="ml-3">Some text..</p>
+                <p class="mx-3 text-justify">Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                <br>
+                <h2 class="mx-3">SEMANA PASADA</h2>
+                <h5 class="mx-3">Ida al parque, Ago 2, 2020
+                </h5>
+                <div class="col">
+                    <img class="img img-fluid" src="https://c.wallhere.com/photos/39/e5/california_city_friends_urban_color_film_horizontal_analog-947001.jpg!d">
+                </div>
+                <p class="mx-3">Some text..</p>
+                <p class="mx-3 text-justify">Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="img img-fluid" src="https://image.freepik.com/vector-gratis/perfil-avatar-hombre-icono-redondo_24640-14044.jpg" alt="" width="100%" height="250">
+                    <div class="card-body">
+                        <h2 class="card-title">Acerca de mi</h2>
+                        <h5 class="card-text">Foto de mi</h5>
+                    </div>
+                    <p class="mx-3 text-justify">Let me introduce myself: My name's Zozor. I was born on 23 November 2005. A bit meager, is it not? This is why I've now decided to write my biography to let my readers know who I really am.</p>
+                    <div class="col">
+                        <img class="img img-fluid" src="https://hojadevida2020.000webhostapp.com/facebook.png" alt="Facebook" />
+                        <img class="img img-fluid" src="https://hojadevida2020.000webhostapp.com/twitter.png" alt="Twitter" />
+                        <img class="img img-fluid" src="https://hojadevida2020.000webhostapp.com/vimeo.png" alt="Vimeo" />
+                        <img class="img img-fluid" src="https://hojadevida2020.000webhostapp.com/flickr.png" alt="Flickr" />
+                        <img class="img img-fluid" src="https://hojadevida2020.000webhostapp.com/rss.png" alt="RSS" />
+                    </div>
+                    <ul class="nav nav-pills flex-column m-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Enlace activo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Fotos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Video</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Construcción</a>
+                        </li>
+                    </ul>
+                    <hr class="d-sm-none">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer m-3">
+        <div class="row bg-dark text-white m-3">
+            <div class="col">
+                <h1>Mis datos</h1>
+                <p>Andrés Felipe Franco Monroy</p>
+                <p>31239123</p>
+            </div>
+            <div class="col">
+                <h1>Mis imagenes</h1>
+                <p> <img class="img img-fluid" src="https://hojadevida2020.000webhostapp.com/pic1.jpg " alt="Picture " />
+                    <img class="img img-fluid" src="https://hojadevida2020.000webhostapp.com/pic2.jpg " alt="Picture " />
+                    <img class="img img-fluid" src="https://hojadevida2020.000webhostapp.com/pic3.jpg " alt="Picture " />
+                    <img class="img img-fluid" src="https://hojadevida2020.000webhostapp.com/pic4.jpg " alt="Picture " />
+                </p>
+            </div>
+            <div class="col">
+                <h1>Mis amigos</h1>
+                <ul class="nav nav-pills flex-column m-3 ">
+                    <li class="nav-item">
+                        <a class="nav-link " href="# ">Pupi the rabbit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="# ">Mr Baobab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="# ">Kaiwaii</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="# ">Perceval.eu</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
